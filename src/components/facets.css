@@ -1,0 +1,24 @@
+.Facet-fields{
+    text-align:left;
+    border: 1px solid green;
+}
+
+.facetWrapper{
+    margin:5px;
+    text-align: start;
+
+}
+
+.facetCard{
+    margin-left: 10px;
+    /* display:flex */
+}
+
+.facetName{
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    margin: 5px 15px;
+}

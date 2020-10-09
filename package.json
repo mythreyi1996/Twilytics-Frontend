@@ -1,0 +1,38 @@
+{
+  "name": "twilytics",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lls/react-light-calendar": "^2.0.7",
+    "chart.js": "^2.9.3",
+    "react": "^16.12.0",
+    "react-chartjs-2": "^2.8.0",
+    "react-dom": "^16.12.0",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-search-box": "^2.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://serverless-twilytics --acl public-read",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
